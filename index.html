@@ -58,24 +58,24 @@
     }
 
     .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      border-bottom: 1px solid rgba(255, 255, 255, .08);
+      позиция: липкая;
+      верх: 0;
+      z-индекс: 20;
+      border-bottom: 1px сплошная rgba(255, 255, 255, .08);
       background: rgba(16, 11, 32, .76);
-      backdrop-filter: blur(18px);
+      background-фильтр: размытие (18px);
     }
 
     .nav {
-      min-height: 76px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
+      минимальная высота: 76 пикселей;
+      дисплей: гибкий ;
+      выровнять-элементы: по центру;
+      выровнять-содержимое: пробел между ними;
+      интервал: 24 пикселя;
     }
 
-    .brand {
-      display: flex;
+    .бренд {
+      дисплей: гибкий;
       align-items: center;
       gap: 12px;
       font-weight: 800;
@@ -96,6 +96,10 @@
 
     .brand-name {
       font-size: 17px;
+    }
+
+    .brand-name span {
+      color: var(--purple-light);
     }
 
     .nav-links {
@@ -818,8 +822,8 @@
             <h3>🌆 Москва и Санкт-Петербург</h3>
             <p>Адрес для подключения к игровому серверу</p>
             <div class="ip-row">
-              <code class="ip-address">tcp.cloudpub.ru:18851</code>
-              <button class="copy-button" data-copy="tcp.cloudpub.ru:18851">Скопировать</button>
+              <code class="ip-address">tcp.cloudpub.ru:19313</code>
+              <button class="copy-button" data-copy="tcp.cloudpub.ru:19313">Скопировать</button>
             </div>
           </article>
 
@@ -827,8 +831,8 @@
             <h3>🌍 Дополнительный сервер</h3>
             <p>Адрес для подключения по UDP</p>
             <div class="ip-row">
-              <code class="ip-address">udp.cloudpub.ru:18851</code>
-              <button class="copy-button" data-copy="udp.cloudpub.ru:18851">Скопировать</button>
+              <code class="ip-address">udp.cloudpub.ru:19313</code>
+              <button class="copy-button" data-copy="udp.cloudpub.ru:19313">Скопировать</button>
             </div>
           </article>
         </div>
@@ -854,17 +858,6 @@
               </a>
             </div>
             <div class="discord-icon" aria-hidden="true">🎮</div>
-          </article>
-
-          <article class="discord-card">
-            <div>
-              <h3>Поддержка</h3>
-              <p>Нужна помощь? Перейдите на Discord поддержки.</p>
-              <a class="discord-link" href="https://discord.gg/bR3nXEke2" target="_blank" rel="noopener noreferrer">
-                Написать в поддержку →
-              </a>
-            </div>
-            <div class="discord-icon" aria-hidden="true">💬</div>
           </article>
 
           <article class="discord-card">
